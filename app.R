@@ -298,7 +298,9 @@ server <- function(input, output) {
     })
       
     output$employment <- renderPlot(height=function() {plot_height()[2]},{
-        
+        shiny::validate(
+          need(input$claimtype,"Please select a Claim Type")
+        )
         # Unemployment chart
         g2 <- joined %>%
             filter(type=="cases",Province_State==input$state) %>%
@@ -322,7 +324,9 @@ server <- function(input, output) {
     })  
         
     output$covid <- renderPlot(height=function() {plot_height()[3]},{
-        
+        shiny::validate(
+          need(input$cases,label="reported value")
+        )
         # Cases chart
         g3 <- joined %>%
             filter(Province_State==input$state & type %in% input$type) %>%
