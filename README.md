@@ -6,6 +6,6 @@ The application utilizes RShiny and is hosted here: [RShiny](https://bentondavid
 
 ## Data Sources:
 
-- US Unemployment Data from the Department of Labor: [Department of Labor](https://oui.doleta.gov/unemployment/claims.asp)
+- US Unemployment Data from the Department of Labor: [Department of Labor](https://oui.doleta.gov/unemploy/claims.asp)
 - Policy Decision Data from the CoronaNet Project: [CoronaNet Repository](https://github.com/CoronaNetDataScience/corona_index)
 - COVID Case and Death Data from Johns Hopkins University: [CSSEGIS Repository](https://github.com/CSSEGISandData/COVID-19/tree/master/csse_covid_19_data)
