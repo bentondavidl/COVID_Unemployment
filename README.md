@@ -2,7 +2,7 @@
 
 This repository visualizes the effect of COVID-19 related policy decisions on unemployment claims and the current case load in each US state  
   
-The application utilizes RShiny and is hosted here: [RShiny](https://bentondavidl.shinyapps.io)
+The application utilizes RShiny and is hosted here: [RShiny](https://bentondavidl.shinyapps.io/COVID_Unemployment)
 
 ## Data Sources:
 
